@@ -230,7 +230,7 @@
   .card-item {
     height: 450px;
   }
-
+}
 @media (max-width: 320px) {
   .card-item {
     height: 400px;
