@@ -1,9 +1,9 @@
 import { Typography } from "@mui/material";
 
-const Posts = () => (
+const Contacts = () => (
     <Typography variant="h3" marginTop={10}>
         Contacts page
     </Typography>
 );
 
-export default Posts;
+export default Contacts;

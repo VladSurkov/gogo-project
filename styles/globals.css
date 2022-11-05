@@ -9,6 +9,9 @@ body {
   overflow-x: hidden;
   background-color: #f4f4f3;
 }
+html.lock {
+  overflow-y: hidden;
+}
 
 a {
   color: inherit;

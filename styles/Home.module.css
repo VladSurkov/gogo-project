@@ -220,6 +220,20 @@
   }
 }
 
+@media (max-width: 600px) {
+  .pagination {
+    width: 100%;
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 530px) {
+  .pagination {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}
+
 @media (max-width: 425px) {
   .card-item {
     height: 500px;

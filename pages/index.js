@@ -24,7 +24,7 @@ const Home = () => {
         <li className={classes['start-arrow']}>&#xAB;</li>
         <li className={classes['forward-arrow']}>	&#x3C;</li>
         {pages.map((item) => (
-          <li className={classes['item-arrow']} key={item}>{item}</li>
+          <li className={classes['item-arrow']} key={item} id="item-arrow">{item}</li>
         ))}
         <li className={classes['back-arrow']}>&#x3E;</li>
         <li className={classes['end-arrow']}>&#xBB;</li>
